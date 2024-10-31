@@ -18,4 +18,4 @@ jobs:
       with: 
         dotnet-version: 9
     - name: Build project
-      run: cd README.md dotnet build
+      run: cd README.md; dotnet build
